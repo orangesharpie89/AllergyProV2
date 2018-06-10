@@ -1,0 +1,46 @@
+<menu>
+    <menuitem>
+        <name>Bloomin Onion</name>
+        <basicingredients>onion,egg,water</basicingredients>
+        <complexingredients>Bloom Flour,Bloom Sauce</complexingredients>
+        <sauces>Bloom Sauce</sauces>
+        <picture>bloom</picture>
+    </menuitem>
+    <menuitem>
+        <name>Aussie Cheese Fries</name>
+        <basicingredients>potato,vegetable oil,canola,palm oil,soybean oil,sunflower oil,modified food starch,rice flour,dextrin,salt,leavening,dextrose,xanthan gum,cheese,bacon</basicingredients>
+        <complexingredients>Ranch Dressing</complexingredients>
+        <sauces>Ranch Dressing</sauces>
+        <picture>cheese</picture>
+    </menuitem>
+    <complexitem>
+        <name>Bloom Flour</name>
+        <basicingredients>malted enriched bleached wheat flour,spices,paprika,garlic,onion,palm oil</basicingredients>
+        <complexingredients></complexingredients>
+    </complexitem>
+    <complexitem>
+        <name>mayo</name>
+        <basicingredients>soybean oil,whole egg,water,distilled vinegar,egg yolk,salt,sugar,lemon juice concentrate,calcium disodium edta,extracative of paprika</basicingredients>
+        <complexingredients></complexingredients>
+    </complexitem>
+    <complexitem>
+        <name>franks</name>
+        <basicingredients>aged cayenne red pepper,distilled vinegar,water,salt,garlic powder</basicingredients>
+        <complexingredients></complexingredients>
+    </complexitem>
+    <complexitem>
+        <name>house seasoning</name>
+        <basicingredients>salt,paprika,onion,garlic,palm oil,calcium phosphate</basicingredients>
+        <complexingredients></complexingredients>
+    </complexitem>
+    <complexitem>
+        <name>Bloom Sauce</name>
+        <basicingredients>horseradish,milk</basicingredients>
+        <complexingredients>mayo,franks,house seasoning</complexingredients>
+    </complexitem>
+    <complexitem>
+        <name>Ranch Dressing</name>
+        <basicingredients>salt,garlic powder,onion powder,cayenne,buttermilk,pepper</basicingredients>
+        <complexingredients>mayo</complexingredients>
+    </complexitem>
+</menu>

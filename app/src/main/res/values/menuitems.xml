@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cocoshrimp" >Coconut Shrimp</string>
+    <string-array name="cocoshrimp">
+        <item>Shrimp</item>
+        <item>Flour</item>
+        <item>Coconut</item>
+        <item>Sugar</item>
+        <item>Beer</item>
+        <item>Orange</item>
+        <item>Mustard</item>
+        <item>Horseradish</item>
+    </string-array>
+
+    <string name="breadedshrimp">Breaded Shrimp</string>
+    <string-array name="breadedshrimp">
+        <item>Shrimp</item>
+        <item>Flour</item>
+        <item>Water</item>
+        <item>Salt</item>
+    </string-array>
+</resources>
