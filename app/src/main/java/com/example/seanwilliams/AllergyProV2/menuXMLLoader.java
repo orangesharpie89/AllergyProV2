@@ -195,7 +195,8 @@ public class menuXMLLoader
                 for(String thing : stuff)
                 {
                     temp = recurseComplexIngredients(thing, complexMap);
-                    final_menu[id].set_complexingredients(thing, temp.substring(1, temp.length()));
+//                    final_menu[id].set_complexingredients(thing, temp.substring(1, temp.length()));
+                    final_menu[id].set_complexingredients(thing,temp.charAt(0)==','?temp.substring(1,temp.length()):temp);
                     final_menu[id].set_menuitemingredients(final_menu[id].get_menuitemingredients()+temp);
                 }
             }
@@ -216,7 +217,7 @@ public class menuXMLLoader
                 complex = complex + recurseComplexIngredients(thing, map);
             }
         }
-        return "," + complex;
+        return map.get(pointer).getBasicIngredients().length()>0?"," + complex:complex;
     }
 
     public String recurseSauces(String pointer, HashMap<String, sauce> map, HashMap<String, complexitem> cmap)
