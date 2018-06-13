@@ -6,6 +6,7 @@ import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.speech.RecognizerIntent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -27,11 +28,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
 
     TextView input;
-    Button optionsbutton;
+    Button speakButton;
     MenuItem[] master_list;
     MenuItemDisplay[] search_results_display_list;
     menuXMLLoader loader_class;
@@ -66,6 +69,18 @@ public class MainActivity extends AppCompatActivity {
         menu_list_view = (ListView) findViewById(R.id.viewList);
 
         input = (TextView) findViewById(R.id.editText);
+        speakButton = (Button) findViewById(R.id.speakButton);
+        speakButton.setOnClickListener(new Button.OnClickListener()
+        {
+
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+                i.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+                i.putExtra(RecognizerIntent.EXTRA_PROMPT, "Say 'comma' to separate allergens:");
+                startActivityForResult(i, 3000);
+            }
+        });
 
         allergy_list = new HashMap<>();
         String[] gluten = {"wheat", "wheatberries", "durum", "emmer", "semolina", "spelt", "farina", "farro", "graham", "khorasan", "einkorn", "rye", "barley", "triticale", "malt", "malted", "brewers yeast", "brewer's yeast", "wheat starch", "beer"};
@@ -113,6 +128,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void do_the_display(String[] search_inputs)
     {
+        String i_hate_this_fucking_pattern_start_2 = "([a-zA-Z0-9\\s])*((?<=\\s|,|^)";
+        String i_hate_this_fucking_pattern_end_2 = ")([a-zA-Z0-9\\s$]*)";
         //This method checks the hashmap allergy_list, and potentially adds items to the search_inputs array
         search_inputs = checkListedAllergens(search_inputs);
 
@@ -125,7 +142,8 @@ public class MainActivity extends AppCompatActivity {
             search_input = search_input.trim();
             for (MenuItem m : master_list)
             {
-                if (m.get_menuitemingredients().contains(search_input))
+                //if (m.get_menuitemingredients().contains(search_input))
+                if( Pattern.compile(i_hate_this_fucking_pattern_start_2+ search_input+i_hate_this_fucking_pattern_end_2).matcher(m.get_menuitemingredients()).find())
                 {
                     //If the menu item is not in the result list, add it
                     //Otherwise, simply add the allergen info into the display object
@@ -237,5 +255,24 @@ public class MainActivity extends AppCompatActivity {
             view = new View(activity);
         }
         imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if(requestCode == 3000)
+        {
+            if(resultCode == RESULT_OK)
+            {
+                List<String> results = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+                String answer = results.get(0);
+                input.setText(answer);
+                model.setSearch_inputs(answer);
+                String[] inputs = getAllergenInputs(model.getSearch_inputs());
+                do_the_display(inputs);
+
+            }
+        }
     }
 }
