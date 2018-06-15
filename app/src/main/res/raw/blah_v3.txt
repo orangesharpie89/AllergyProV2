@@ -1,0 +1,424 @@
+<menu>
+<menuitem>
+<name>Bloomin Onion</name>
+<basicingredients>onion,egg,water</basicingredients>
+<complexingredients>Bloom Flour,Bloom Sauce,Beef Tallow</complexingredients>
+<sauces>Bloom Sauce</sauces>
+<picture>bloom</picture>
+</menuitem>
+<menuitem>
+<name>Aussie Cheese Fries</name>
+<basicingredients>potato,vegetable oil,canola,palm oil,soybean oil,sunflower oil,modified food starch,rice flour,dextrin,salt,leavening,dextrose,xanthan gum,cheese,bacon</basicingredients>
+<complexingredients>Ranch Dressing,Beef Tallow</complexingredients>
+<sauces>Ranch Dressing</sauces>
+<picture>cheese</picture>
+</menuitem>
+<menuitem>
+<name>Bloom Petals</name>
+<basicingredients>onion,egg,water</basicingredients>
+<complexingredients>Bloom Flour,Bloom Sauce,Beef Tallow</complexingredients>
+<sauces>nada</sauces>
+<picture>petals</picture>
+</menuitem>
+<menuitem>
+<name>Sydneys Shrooms</name>
+<basicingredients>mushroom,egg,water</basicingredients>
+<complexingredients>Bloom Flour,Ranch Dressing,Beef Tallow</complexingredients>
+<sauces>nada</sauces>
+<picture>bushman</picture>
+</menuitem>
+<menuitem>
+<name>Volcano Shrimp</name>
+<basicingredients>shrimp,wheat flour,modified corn starch,salt,leavening,paprika,spices,yellow corn flour,dehydrated garlic,dehydrated onion,palm oil,methylcellulose,brown sugar,dehydrated red bell pepper,soybean oil,parsley,garlic extract,sodium tripolyphosphate,sodium bisulfite</basicingredients>
+<complexingredients>Beef Tallow,Volcano Sauce</complexingredients>
+<sauces>nada</sauces>
+<picture>volcano</picture>
+</menuitem>
+<menuitem>
+<name>Alice Quesadilla</name>
+<basicingredients>chicken,cheese,enriched bleached wheat flour,niacin,reduced iron,thiamine mononitrate,vegetable shortening,leavening,distilled monoglycerides,enzymes,wheat starch,calcium carbonate,tocopherols,ascorbic acid,cellulose gum,dough conditioners,preservatives,bacon,mushroom,butter</basicingredients>
+<complexingredients></complexingredients>
+<sauces>nada</sauces>
+<picture>queso</picture>
+</menuitem>
+<menuitem>
+<name>Crab Cakes</name>
+<basicingredients>crab meat,egg yolk</basicingredients>
+<complexingredients>mayo,franks,Dijon Mustard,Worcestirshire,Panko,Crab Base</complexingredients>
+<sauces>nada</sauces>
+<picture>crabcakes</picture>
+</menuitem>
+<menuitem>
+<name>GSB</name>
+<basicingredients>shrimp</basicingredients>
+<complexingredients>Panini Bread,Tomato Basil,Garlic Pepper,Garlic Butter</complexingredients>
+<sauces>nada</sauces>
+<picture>gsb</picture>
+</menuitem>
+<menuitem>
+<name>Steak Quesadilla</name>
+<basicingredients>prime rib,cheese,enriched bleached wheat flour,niacin,reduced iron,thiamine mononitrate,vegetable shortening,leavening,distilled monoglycerides,enzymes,wheat starch,calcium carbonate,tocopherols,ascorbic acid,cellulose gum,dough conditioners,preservatives,cilantro,green onion</basicingredients>
+<complexingredients>Chipotle Spread</complexingredients>
+<sauces>nada</sauces>
+<picture>steakqueso</picture>
+</menuitem>
+<menuitem>
+<name>Aussie Sampler</name>
+<basicingredients>potato,vegetable oil,canola,palm oil,soybean oil,sunflower oil,modified food starch,rice flour,dextrin,salt,leavening,dextrose,xanthan gum,cheese,bacon,water,enriched semolina,mozzarella cheese,asiago cheese,water,parmesan cheese,modified tapioca starch,nonfat dry milk,whey,salt,corn syrup solids,maltodextrin,sunflower oil,soybean oil,butter,yeast extract,onion powder,sodium caseinate,xanthan gum,dipotassium phosphate,sunflower lecithin,annatto extract,turmeric,modified corn starch,rice flour,egg white powder,wheat flour,yellow,corn flour,guar gum,dried whey,soy flour,dried whole egg,baking powder,spice,dehydrated garlic,lemon peel granules,dehydrated onion,paprika,lemon juice powder,citric acid,dehydrated potatoes,monoglycerides, diglycerides,sodium acid pyrophosphate,bleached white flour,yeast,yellow 5, yellow 6,onion,egg,water</basicingredients>
+<complexingredients>Bloom Flour,Ranch Dressing,Bloom Sauce,Beef Tallow</complexingredients>
+<sauces>nada</sauces>
+<picture>sampler</picture>
+</menuitem>
+<menuitem>
+<name>Mac and Cheese Bites</name>
+<basicingredients>water,enriched semolina,mozzarella cheese,asiago cheese,water,parmesan cheese,modified tapioca starch,nonfat dry milk,whey,salt,corn syrup solids,maltodextrin,sunflower oil,soybean oil,butter,yeast extract,onion powder,sodium caseinate,xanthan gum,dipotassium phosphate,sunflower lecithin,annatto extract,turmeric,modified corn starch,rice flour,egg white powder,wheat flour,yellow,corn flour,guar gum,dried whey,soy flour,dried whole egg,baking powder,spice,dehydrated garlic,lemon peel granules,dehydrated onion,paprika,lemon juice powder,citric acid,dehydrated potatoes,monoglycerides, diglycerides,sodium acid pyrophosphate,bleached white flour,yeast,yellow 5, yellow 6</basicingredients>
+<complexingredients></complexingredients>
+<sauces>nada</sauces>
+<picture>bites</picture>
+</menuitem>
+<menuitem>
+<name>Coconut Shrimp</name>
+<basicingredients>shrimp,coconut,sugar,propylene glycol,salt,sodium metabisulfite</basicingredients>
+<complexingredients>Bloom Flour,Beef Tallow,Orange Marmalade</complexingredients>
+<sauces>nada</sauces>
+<picture>coco</picture>
+</menuitem>
+<menuitem>
+<name>Ahi Tuna</name>
+<basicingredients>ahi tuna,salt,dehydrated garlic,brown sugar,dehydrated red bell pepper,caramel color,parsley,palm oil,soy lecithin,soybean oil,sesame oil,noodles</basicingredients>
+<complexingredients>Wasabi Vinaigrette,Soy Ginger,Slaw Mix</complexingredients>
+<sauces>nada</sauces>
+<picture>ahi</picture>
+</menuitem>
+<menuitem>
+<name>Potato Soup</name>
+<basicingredients>potato,salt,dried basil,pepper,flour,margarine,onion,heavy cream,water</basicingredients>
+<complexingredients></complexingredients>
+<sauces>nada</sauces>
+<picture>potatosoup</picture>
+</menuitem>
+<menuitem>
+<name>Clam Chowder</name>
+<basicingredients>heavy cream,milk,flour,margarine,carrot,celery,onion,salt,pepper,cayenne powder,white pepper,parsley</basicingredients>
+<complexingredients>Maggi Seasoning,Shrimp Base,Clams</complexingredients>
+<sauces>nada</sauces>
+<picture>clamchowder</picture>
+</menuitem>
+<menuitem>
+<name>French Onion</name>
+<basicingredients>sauteed onion,water,onion puree,white wine,butter,wheat flour,corn oil,hydrolyzed soy,wheat and corn proteins,salt,palm oil,autolyzed yeast extract,beef stock,sodium phosphate,lactic acid,canola oil,sugar,carrot puree,beef fat,citric acid,tomato paste,soy sauce,dextrose,soybean oil,brown sugar,caramel color,dried onions,modified cornstarch,celery juice concentrate,spices,disodium inosinate,soy lecithin,disodium guanylate,lactic acid,dried garlic,calcium lactate</basicingredients>
+<complexingredients></complexingredients>
+<sauces>nada</sauces>
+<picture>frenchonion</picture>
+</menuitem>
+<menuitem>
+<name>House Salad</name>
+<basicingredients>iceberg,romaine,napa cabbage,cheese,tomato,cucumber,onion</basicingredients>
+<complexingredients>Ranch Dressing,Crouton,Bleu Cheese Vinaigrette,Honey Mustard Dressing,Caesar Dressing,Tangy Tomato Dressing,Mustard Vinaigrette Dressing,Thousand Island Dressing,Bleu Cheese Dressing</complexingredients>
+<sauces>nada</sauces>
+<picture>housesalad</picture>
+</menuitem>
+<menuitem>
+<name>Caesar Salad</name>
+<basicingredients>romaine,parmesan cheese</basicingredients>
+<complexingredients>Caesar Dressing,Crouton</complexingredients>
+<sauces>nada</sauces>
+<picture>caesarsalad</picture>
+</menuitem>
+<menuitem>
+<name>Chop Salad</name>
+<basicingredients>romaine,iceberg,carrot,red cabbage,green onion,noodles,bleu cheese</basicingredients>
+<complexingredients>Bleu Cheese Vinaigrette,Cinnamon Pecans</complexingredients>
+<sauces>nada</sauces>
+<picture>chopsalad</picture>
+</menuitem>
+<menuitem>
+<name>Wedge Salad</name>
+<basicingredients>iceberg,red onion,bacon,bleu cheese,salt,tomato</basicingredients>
+<complexingredients>Reduced Balsamic</complexingredients>
+<sauces>nada</sauces>
+<picture>wedgesalad</picture>
+</menuitem>
+<menuitem>
+<name>Cobb Salad</name>
+<basicingredients>romain,iceberg,napa cabbage,cheese,bacon,egg,tomato</basicingredients>
+<complexingredients>Crouton</complexingredients>
+<sauces>nada</sauces>
+<picture>cobbsalad</picture>
+</menuitem>
+<menuitem>
+<name>Steakhouse Salad</name>
+<basicingredients>romaine,iceberg,carrot,red cabbage,red onion,noodles,bleu cheese</basicingredients>
+<complexingredients>Bleu Cheese Vinaigrette,Cinnamon Pecans</complexingredients>
+<sauces>nada</sauces>
+<picture>steakhousesalad</picture>
+</menuitem>
+<menuitem>
+<name>Smoky Bourbon Topping</name>
+<basicingredients>sugar,brown sugar,bourbon,soybeans,wheat,lime juice,salt,modified food starch,vinegar,aged cayenne peppers,natural smoke,red bell pepper,potassium sorbate,garlic,chili de arbol pepper,caramel color</basicingredients>
+<complexingredients></complexingredients>
+<sauces>nada</sauces>
+<picture>bourbontop</picture>
+</menuitem>
+<menuitem>
+<name>Burgundy Mushrooms</name>
+<basicingredients>mushroom</basicingredients>
+<complexingredients>Burgundy Base</complexingredients>
+<sauces>nada</sauces>
+<picture>burgshrooms</picture>
+</menuitem>
+<menuitem>
+<name>Mashed Potatoes</name>
+<basicingredients>potato,milk,heavy cream,salt,pepper,onion powder,margarine</basicingredients>
+<complexingredients></complexingredients>
+<sauces>nada</sauces>
+<picture>mash</picture>
+</menuitem>
+<menuitem>
+<name>Mixed Veg and Broc</name>
+<basicingredients>broccoli,carrot,squash</basicingredients>
+<complexingredients>Vegetable Butter</complexingredients>
+<sauces>nada</sauces>
+<picture>veggie</picture>
+</menuitem>
+<complexitem>
+<name>Bloom Flour</name>
+<basicingredients>malted enriched bleached wheat flour,spices,paprika,garlic,onion,palm oil</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>mayo</name>
+<basicingredients>soybean oil,whole egg,water,distilled vinegar,egg yolk,salt,sugar,lemon juice concentrate,calcium disodium edta,extracative of paprika</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>franks</name>
+<basicingredients>aged cayenne red pepper,distilled vinegar,water,salt,garlic powder</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>house seasoning</name>
+<basicingredients>salt,paprika,onion,garlic,palm oil,calcium phosphate</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Bloom Sauce</name>
+<basicingredients>horseradish,milk</basicingredients>
+<complexingredients>mayo,franks,house seasoning</complexingredients>
+</complexitem>
+<complexitem>
+<name>Ranch Dressing</name>
+<basicingredients>salt,garlic powder,onion powder,cayenne,buttermilk,pepper</basicingredients>
+<complexingredients>mayo</complexingredients>
+</complexitem>
+<complexitem>
+<name>Mild Wing Sauce</name>
+<basicingredients>aged cyaenne red pepper,distilled vinegar,water,salt,dehydrated garlic,palm oil,water,salt,spices,dehydrated garlic,dehydrated onion,paprika,palm oil,butter,nonfat dry milk solids,vegetable mono and diglycerides,polyglycerol polyricinoleate,sodium benzoate and potassium sorbate,soy lecithin,vitamin A palmitate,beta carotene</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Hot Wing Sauce</name>
+<basicingredients>aged cyaenne red pepper,distilled vinegar,water,salt,dehydrated garlic,palm oil,red pepper,salt,water,salt,spices,dehydrated garlic,dehydrated onion,paprika,palm oil,butter,nonfat dry milk solids,vegetable mono and diglycerides,polyglycerol polyricinoleate,sodium benzoate and potassium sorbate,soy lecithin,vitamin A palmitate,beta carotene</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Beef Tallow</name>
+<basicingredients>deodorized beef tallow,bht,citric acid,dimethylpolysiloxane</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Volcano Sauce</name>
+<basicingredients>lime juice,cayenne pepper,crushed red pepper</basicingredients>
+<complexingredients>mayo,Soy Sauce,Sriracha,Garlic Chili Paste,Mae Ploy</complexingredients>
+</complexitem>
+<complexitem>
+<name>Soy Sauce</name>
+<basicingredients></basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Sriracha</name>
+<basicingredients></basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Garlic Chili Paste</name>
+<basicingredients></basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Mae Ploy</name>
+<basicingredients></basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Dijon Mustard</name>
+<basicingredients>vinegar,mustard seed,salt,white wine,fruit pectin,citric acid,tartaric acid,sugar,spice</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Worcestirshire</name>
+<basicingredients>distilled white vinegar,molasses,sugar,salt,onions,anchovies,garlic,cloves,tamarind extract,chili pepper extract</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Panko</name>
+<basicingredients>bleached white flour,yeast,sugar,salt</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Crab Base</name>
+<basicingredients>sauteed crab,salt,maltodextrin,corn oil,sugar,modified cornstarch,butter,yeast extract,disodium inosinate,buttermilk powder,hydrolyzed soy and corn protein,cultured whey,whey,disodium guanylate,onion powder,cod liver oil,lactic acid,lobster extract,modified tapioca starch</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Panini Bread</name>
+<basicingredients>flour,salt,yeast,monocalcium phosphate,corn starch,monodiglycerides,potassium iodate,ascorbic acid,enzymes,calcium propionate</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Tomato Basil</name>
+<basicingredients>tomato,basil,salt,lemon juice,olive oil,canola oil</basicingredients>
+<complexingredients>Garlic Pepper</complexingredients>
+</complexitem>
+<complexitem>
+<name>Garlic Pepper</name>
+<basicingredients>spices,salt,garlic,brown sugar,dehydrated bell pepper,parsley,garlic extract,palm oil</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Garlic Butter</name>
+<basicingredients>butter,roasted garlic,roasted garlic bits,parmesan cheese,parsley,lemon juice,garlic,soybean oil</basicingredients>
+<complexingredients>Garlic Pepper</complexingredients>
+</complexitem>
+<complexitem>
+<name>Cream Cheese</name>
+<basicingredients>pasteurized milk and cream,salt,carob bean gum,cheese culture</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Chipotle Base</name>
+<basicingredients>red pepper,jalapeno,onions,celery,carrots,maltodextrin,chipotle powder,salt,corn oil,olive oil,sugar,molasses,dried onion,vinegar,modified cornstarch,palm oil,garlic,citric acid,disodium inosinate,disodium guanylate,smoke flavor</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Chipotle Spread</name>
+<basicingredients>garlic,heavy cream,parsley,green onion,oregano,pepper,salt</basicingredients>
+<complexingredients>Cream Cheese,Chipotle Base</complexingredients>
+</complexitem>
+<complexitem>
+<name>Orange Marmalade</name>
+<basicingredients></basicingredients>
+<complexingredients>Creole Mustard,Horseradish,Marmalade</complexingredients>
+</complexitem>
+<complexitem>
+<name>Creole Mustard</name>
+<basicingredients>vinegar,water,brown mustard seed,salt,xanthan gum</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Horseradish</name>
+<basicingredients>horseradish,distilled vinegar,water,soybean oil,salt</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Marmalade</name>
+<basicingredients>high fructose corn syrup,corn syrup,orange peel,orange juice concentrate,fruit pectin,citric acid,orange flavor</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Wasabi Vinaigrette</name>
+<basicingredients>wasabi,rice wine vinegar,red pepper,cilantro,honey,yellow mustard,soy sauce,pickled ginger,garlic,salt,red bell flakes,pepper,granulated onion,granulated garlic,olive oil</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Soy Ginger</name>
+<basicingredients>soybean oil,soy sauce,sugar,chili sauce,ginger,egg yolk,rice vinegar,garlic,salt,water,distilled vinegar,paprika,spices,dehydrated onion,dehydrated garlic,palm oil,xanthan gum,calcium disodium edta</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Slaw Mix</name>
+<basicingredients>napa cabbage,carrot,green onion,cilantro,red cabbage</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Maggi Seasoning</name>
+<basicingredients>salt,wheat gluten,roasted flour,sugar,caramel color,acetic acid,wheat bran,disodium guanylate,disodium inosinate,dextrose</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Shrimp Base</name>
+<basicingredients>shrimp,salt,maltodextrin,corn oil,butter,autolyzed yeast extract,potato starch,shrimp powder,sugar,disodium inosinate,disodium guanylate,tomato paste,hydrolyzed soy and corn protein,onion powder,paprika,citric acid,garlic powder</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Clams</name>
+<basicingredients>clam,sodium phosphate,salt,calcium disodium edta</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Crouton</name>
+<basicingredients>margarine</basicingredients>
+<complexingredients>house seasoning</complexingredients>
+</complexitem>
+<complexitem>
+<name>Bleu Cheese Dressing</name>
+<basicingredients>buttermilk,white vinegar,bleu cheese,salt,pepper,garlic powder</basicingredients>
+<complexingredients>mayo,Light Sour Cream</complexingredients>
+</complexitem>
+<complexitem>
+<name>Light Sour Cream</name>
+<basicingredients></basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Thousand Island Dressing</name>
+<basicingredients>soybean oil,tomato puree,sweet pickle relish,distilled vinegar,sugar,egg yolk,salt,water,mustard flour,mustard seed,potassium sorbate,onion powder,garlic powder,molasses,corn syrup,spice,calcium disodium edta,xanthan gum,caramel color,tamarind</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Tangy Tomato Dressing</name>
+<basicingredients>water,sugar,tomato paste,cider vinegar,distilled vinegar,modified food starch,salt,paprika,spices,garlic,onion,cultured dextrose,yeast extract,xanthan gum,sunflower oil,sucralose,citric acid,sodium citrate,potassium sorbate,sodium benzoate</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Mustard Vinaigrette Dressing</name>
+<basicingredients>soybean oil,water,extra virgin olive oil,sugar,chardonnay,distilled vinegar,garlic,tomato puree,spice,xanthan gum,caramel color,celery seed,crushed orange puree,dehydrated garlic,dehydrated onion,red pepper,calcium disodium edta</basicingredients>
+<complexingredients>Dijon Mustard</complexingredients>
+</complexitem>
+<complexitem>
+<name>Caesar Dressing</name>
+<basicingredients>soybean oil,whole egg,parmesan cheese,water,garlic,olive oil,lemon juice,salt,red wine vinegar,anchovies,spice,mustard flour,citric acid,distilled vinegar,maltodextrin,xanthan gum,phosphoric acid,potassium sorbate,sodium benzoate,molasses,corn syrup,caramel color,dried garlic,sugar,lactic acid,tamarind</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Honey Mustard Dressing</name>
+<basicingredients>honey</basicingredients>
+<complexingredients>mayo,Dijon Mustard</complexingredients>
+</complexitem>
+<complexitem>
+<name>Bleu Cheese Vinaigrette</name>
+<basicingredients>rice vinegar,balsamic vinegar,basil,garlic,brown sugar,salt,oregano,bleu cheese,soybean oil</basicingredients>
+<complexingredients>Garlic Pepper</complexingredients>
+</complexitem>
+<complexitem>
+<name>Cinnamon Pecans</name>
+<basicingredients>pecans,sugar,cinammon,water</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Reduced Balsamic</name>
+<basicingredients>balsamic vinegar,cane sugar,sulfites</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Burgundy Base</name>
+<basicingredients>burgundy wine,onions,margarine,salt,nonfat dry milk,sodium benzoate,soy lecithin,vitamin a palmitate,beef stock,beef fat,autolyzed yeast extract,caramel color,soy sauce,cornstarch,sodium phosphate,disodium inosinate,disodium guanylate,modified cornstarch,potato starch,beef powder,lactic acid,corn syrup solids,dextrose,paprika,dried onion,dried garlic,palm oil,modified food starch</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+<complexitem>
+<name>Vegetable Butter</name>
+<basicingredients>palm oil,water,soybean oil,salt,dextrose,white sugar,brown sugar,hydrolyzed vegetable protein,potato flour,spices,natural vegetarian type bacon flavor,salted butter,nonfat dry milk solids,milk,soy lecithin,potassium sorbate,citric acid,beta carotene,vitamin a palmitate</basicingredients>
+<complexingredients></complexingredients>
+</complexitem>
+</menu>
