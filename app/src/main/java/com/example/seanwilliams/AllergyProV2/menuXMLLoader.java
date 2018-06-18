@@ -197,9 +197,10 @@ public class menuXMLLoader
                     temp = recurseComplexIngredients(thing, complexMap);
 //                    final_menu[id].set_complexingredients(thing, temp.substring(1, temp.length()));
                     final_menu[id].set_complexingredients(thing,temp.charAt(0)==','?temp.substring(1,temp.length()):temp);
-                    final_menu[id].set_menuitemingredients(final_menu[id].get_menuitemingredients()+temp);
+                    final_menu[id].set_menuitemingredients(final_menu[id].get_menuitemingredients()+","+thing+""+temp);
                 }
             }
+            //System.out.println(final_menu[id].get_menuitemingredients());
             id++;
         }
 
@@ -214,7 +215,7 @@ public class menuXMLLoader
             String[] stuff = map.get(pointer).complexIngredients.split(",");
             for(String thing : stuff)
             {
-                complex = complex + recurseComplexIngredients(thing, map);
+                complex = complex +","+thing+""+ recurseComplexIngredients(thing, map);
             }
         }
         return map.get(pointer).getBasicIngredients().length()>0?"," + complex:complex;

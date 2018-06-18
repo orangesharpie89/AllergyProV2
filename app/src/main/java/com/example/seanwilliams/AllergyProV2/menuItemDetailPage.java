@@ -32,9 +32,7 @@ public class menuItemDetailPage extends AppCompatActivity {
 
         MenuItemDisplay food = getIntent().getParcelableExtra("data");
 
-        String i_hate_this_fucking_pattern_start = "(?<=^)[a-zA-Z0-9\\s]*([^a-zA-Z,]|(?<=,|^))(";
         String i_hate_this_fucking_pattern_start_2 = "([a-zA-Z0-9\\s])*((?<=\\s|,|^)";
-        String i_hate_this_fucking_pattern_end = ")(?=\\s|,|$)[a-zA-Z0-9\\s$]*";
         String i_hate_this_fucking_pattern_end_2 = ")([a-zA-Z0-9\\s$]*)";
 
         ImageView title_pic = (ImageView) findViewById(R.id.menuitempicturedisplay);
@@ -94,16 +92,23 @@ public class menuItemDetailPage extends AppCompatActivity {
             row = new TableRow(this);
             row.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
             complex_item_name = new TextView(this);
-            complex_item_name.setText(String.valueOf(pair.getKey())+":");
+
+            Pattern p = Pattern.compile(i_hate_this_fucking_pattern_start_2+allergies_to_match+i_hate_this_fucking_pattern_end_2);
+            Matcher m = p.matcher(String.valueOf(pair.getKey())+":");
+            SpannableStringBuilder str_builder = new SpannableStringBuilder(String.valueOf(pair.getKey())+":");
+            while (m.find()) {
+                str_builder.setSpan(new ForegroundColorSpan(Color.RED), m.start(), m.end(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+            }
+            complex_item_name.setText(str_builder);
             complex_item_name.setLayoutParams(new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT));
             row.addView(complex_item_name);
 
             TextView complex_item_ingredients = new TextView(this);
             if(food.getAllergen().get(0).length() > 0) {
                 //Pattern p = Pattern.compile("([a-zA-Z0-9\\s]*(" + allergies_to_match + "))+(?=,)");
-                Pattern p = Pattern.compile(i_hate_this_fucking_pattern_start_2+allergies_to_match+i_hate_this_fucking_pattern_end_2);
-                Matcher m = p.matcher(String.valueOf(pair.getValue()).replace(",", ", "));
-                SpannableStringBuilder str_builder = new SpannableStringBuilder(String.valueOf(pair.getValue()).replace(",", ", "));
+                p = Pattern.compile(i_hate_this_fucking_pattern_start_2+allergies_to_match+i_hate_this_fucking_pattern_end_2);
+                m = p.matcher(String.valueOf(pair.getValue()).replace(",", ", "));
+                str_builder = new SpannableStringBuilder(String.valueOf(pair.getValue()).replace(",", ", "));
                 while (m.find()) {
                     str_builder.setSpan(new ForegroundColorSpan(Color.RED), m.start(), m.end(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
                 }

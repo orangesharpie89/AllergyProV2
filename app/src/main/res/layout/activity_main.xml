@@ -11,19 +11,12 @@
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:ems="10"
         android:hint="Allergen"
-        android:inputType="textPersonName"
-        android:imeOptions="actionDone"/>
-
-    <ListView
-        android:id="@+id/viewList"
-        android:layout_width="match_parent"
-        android:layout_height="470dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/button" />
+        android:imeOptions="actionDone"
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/button"
@@ -39,8 +32,40 @@
         android:id="@+id/speakButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/viewList"
         android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editText"
         android:text="Speak" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/master_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="105dp">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/exclude_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exclude" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/include_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Include" />
+
+    </android.support.design.widget.TabLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="366dp"
+        android:layout_below="@+id/master_tab">
+
+    </FrameLayout>
 
 </RelativeLayout>
